@@ -1,0 +1,64 @@
+
+// Input Movement
+keyleft		= keyboard_check(ord("A"));
+keyright	= keyboard_check(ord("D"));
+keyup		= keyboard_check(ord("W"));
+keydown		= keyboard_check(ord("S"));
+
+var hdir = (keyright - keyleft);
+var vdir = (keydown - keyup);
+
+if (!isMoving)
+{
+	// Start
+	if (hdir != 0 || vdir != 0)
+	{
+		isMoving = true;
+		
+		hsp = hdir;
+		vsp = vdir;
+	}
+	
+	image_speed = 0;
+	image_index = 0;
+}
+
+if (isMoving)
+{
+	
+	// Grid Movement
+	if (movecount > 0)
+	{	
+		movecount -= movespeed;
+		
+		if (place_meeting(x + sign(hsp) * 32, y, obj_wall))	hsp = 0;
+		if (place_meeting(x, y + sign(vsp) * 32, obj_wall))	vsp = 0;
+		
+		if (hsp = 1)	 direction = 0;
+		if (hsp = -1)	 direction = 180;
+		if (vsp = -1)	 direction = 90;
+		if (vsp = 1)	 direction = 270;
+		image_angle = direction;
+		image_speed = 1;
+		
+		// Movement
+		move_contact_solid(direction,movespeed);
+	}
+	else
+	{
+		isMoving = false;
+		movecount = movegrid;
+	}
+	
+	
+}
+
+move_wrap(true,false,sprite_width/2);
+
+
+
+
+
+
+
+
