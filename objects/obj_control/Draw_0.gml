@@ -13,4 +13,6 @@ else
 	draw_text(32,64,count);
 }
 
-
+DrawSetText(fa_right, fa_center, c_white, fnt_game);
+draw_text(room_width - 32, 32, "Press F2 to toggle ghost target point");
+draw_text(room_width - 32, 64, "Press F11 to toggle fullscreen");

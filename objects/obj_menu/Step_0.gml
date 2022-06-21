@@ -40,13 +40,13 @@ if (keyenter)
 				// Full Screen
 				case 0:	FullScreen();		break;
 											
-				// Control					
+				// Control setting for custom key binding
 				case 1:						break;
 											
 				// Toggle Target			
 				case 2:	global.target_drawing = !global.target_drawing		break;
 				
-				// Back
+				// Back to Main Menu
 				case 3: menu_level = 0;	break;
 			}
 		break;

@@ -7,7 +7,7 @@ if (global.startGame)
 	keyup		= keyboard_check(ord("W")) || keyboard_check(vk_up);
 	keydown		= keyboard_check(ord("S")) || keyboard_check(vk_down);
 
-
+	// Calculate direction
 	hsp = (keyright - keyleft) * movespeed;
 	vsp = (keydown - keyup) * movespeed;
 

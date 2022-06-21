@@ -68,26 +68,18 @@ switch (state)
 		sprite_index = spr_eaten;
 		dx = obj_center.x;
 		dy = obj_center.y;
+		flash = false;
 		if (!place_meeting(x, y, obj_center))
 		{
 			GhostEaten();
 		}
 		else
 		{
-			state = choose(ghostState.scatter, ghostState.chase);
+			state = ghostState.scatter;
 		}
 		
 	break;
 	
-	case ghostState.idle:
-		//
-		GhostIdle(image);
-	break;
-	
-	case ghostState.come_out:
-		//
-		GhostComeOut();
-	break;
 }
 	
 }

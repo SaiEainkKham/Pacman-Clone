@@ -1,4 +1,4 @@
-/// @desc	Setting for Text
+/// @desc	Setting for Text in one place
 /// @arg	halign
 /// @arg	valign
 /// @arg	color

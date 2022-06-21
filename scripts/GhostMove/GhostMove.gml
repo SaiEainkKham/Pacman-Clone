@@ -1,4 +1,4 @@
-/// @desc	Chase to target(dx,dy) with movespeed
+/// @desc	Move to point(dx,dy)
 /// @arg	dx
 /// @arg	dy
 /// @arg	movespeed

@@ -1,4 +1,4 @@
-/// @desc	Moving random direction with movespeed
+/// @desc	Moving random direction
 /// @arg	movespeed
 
 

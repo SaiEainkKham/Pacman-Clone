@@ -17,9 +17,6 @@ y = camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0])*0
 draw_sprite_ext(spr_wall, 0, x, y, width/sprite_width, height/sprite_height, 0, c_white, 1);
 
 // Draw the text
-//draw_set_font(fnt_menu);
-//draw_set_valign(fa_top);
-//draw_set_halign(fa_left);
 DrawSetText(fa_left, fa_top, c_white, fnt_menu);
 
 for (var i = 0; i < op_length; i++)
