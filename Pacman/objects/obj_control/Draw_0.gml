@@ -1,5 +1,5 @@
 
-
+// Draw Text
 if (victory)
 {
 	DrawSetText(fa_middle, fa_center, c_white, fnt_game);

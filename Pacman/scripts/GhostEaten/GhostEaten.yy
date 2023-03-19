@@ -1,12 +1,11 @@
 {
-  "isDnD": false,
+  "resourceType": "GMScript",
+  "resourceVersion": "1.0",
+  "name": "GhostEaten",
   "isCompatibility": false,
+  "isDnD": false,
   "parent": {
     "name": "GhostState",
     "path": "folders/Scripts/GhostState.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "GhostEaten",
-  "tags": [],
-  "resourceType": "GMScript",
 }

@@ -15,7 +15,7 @@ global.grid = 32;
 global.target_drawing = false;
 global.startGame = false;
 
-// Movement speed
+// Movement speed for Ghost
 global.ghostMovespeed = 2;
 global.ghostFrightspeed = 1;
 global.ghostEatenspeed = 8;

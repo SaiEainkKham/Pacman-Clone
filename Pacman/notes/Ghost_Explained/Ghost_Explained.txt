@@ -1,0 +1,8 @@
+Ghost States are
+	1 Scatter	:	Go to their respective coner of the screen
+	2 Chase		:	Chase Pacman depending on their target point
+	3 Frightening:	Ghosts move random direction with reduced movement speed 
+	4 Eaten		:	Ghosts move to their starting location with increased movement speed
+	5 Idle		:	Ghosts move back and forth in their house
+	6 Com_Out	:	Ghosts come out of their house to start begining 'Scatter' or 'Chase'
+	

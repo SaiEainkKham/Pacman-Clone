@@ -1,3 +1,5 @@
+
+// Lose game
 if (state == ghostState.scatter || state == ghostState.chase || state == ghostState.come_out)
 {
 	with (obj_pacman)
@@ -7,6 +9,7 @@ if (state == ghostState.scatter || state == ghostState.chase || state == ghostSt
 		instance_create_layer(x, y, layer, obj_pacmanD);
 	}
 }
+// Got eaten
 else if (state == ghostState.frightening)
 {
 	state = ghostState.eaten;

@@ -1,4 +1,7 @@
 
+// Press F5 to restart
+if (keyboard_check(vk_f5))	game_restart();
+
 // Get key input
 keyup	= keyboard_check_pressed(ord("W")) || keyboard_check_pressed(vk_up); 
 keydown	= keyboard_check_pressed(ord("S")) || keyboard_check_pressed(vk_down);

@@ -11,7 +11,7 @@ with (obj_ghost)
 	if (state != ghostState.come_out) state = ghostState.frightening;
 }
 
-// Reset Duration
+// Reset Fightening Duration if collide with another powerup instance
 ResetFrightening();
 
 
