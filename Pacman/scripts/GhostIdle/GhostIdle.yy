@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "GhostIdle",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "GhostState",
-    "path": "folders/Scripts/GhostState.yy",
+  "$GMScript":"",
+  "%Name":"GhostIdle",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"GhostIdle",
+  "parent":{
+    "name":"GhostState",
+    "path":"folders/Scripts/GhostState.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

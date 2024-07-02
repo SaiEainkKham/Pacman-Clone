@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "Frightening",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "GhostState",
-    "path": "folders/Scripts/GhostState.yy",
+  "$GMScript":"",
+  "%Name":"Frightening",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Frightening",
+  "parent":{
+    "name":"GhostState",
+    "path":"folders/Scripts/GhostState.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }
